@@ -1,7 +1,8 @@
 
-public abstract class Vehicle {
-	  private String VehicleNo;
-	  private final VehicleType type;
+public class Vehicle {
+	  String VehicleNo;
+	  float BikeCost=20, CarCost=40;
+	  final VehicleType type;
 
 	  public Vehicle(VehicleType type)
 	 {
